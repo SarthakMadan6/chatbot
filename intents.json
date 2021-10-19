@@ -1,0 +1,131 @@
+{"intents":
+    [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through our products and inofrmation, ", "Offering support for our products and locating dealers near       you"],
+         "context": [""]
+        },
+
+        {"tag": "1",
+         "patterns": ["1", "one", "Info", "Cranes", "BHL", "Compactors", "Tell me about the products", "Your products", "I want to know more about the proucts"],
+         "responses": ["Select our product range by entering an appropriate product choice from 6, 7 or 8!\n Enter 6 for Cranes\n Enter 7 for BHL\n Enter 8 for Compactors"],
+         "context": [""]
+        },
+        
+        {"tag": "6",
+         "patterns": ["6", "six"],
+         "responses": ["Select the cranes model by entering the choice of the model \n Enter A for model Digmax II (2WD) \n Enter B for model Digmax II (4WD) \n Enter C for model Loadgmax II \n Enter the model choice as A, B or C: "],
+         "context": [""]
+        },
+        
+        {"tag": "A",
+         "patterns": ["A", "a"],
+         "responses": ["Here is the pdf link for model Digmax II (2WD) \n https://www.escortsgroup.com/construction-equipment/international/uploads/products/brochure/1611896007_brochure_DIGMAX-II-2WD.pdf"],
+         "context": [""]
+        },
+        
+        {"tag": "B",
+         "patterns": ["B", "b"],
+         "responses": ["Here is the pdf link for model Digmax II (4WD) \n https://www.escortsgroup.com/"],
+         "context": [""]
+        },
+        
+        {"tag": "C",
+         "patterns": ["C", "c"],
+         "responses": ["Here is the pdf link for model Loadgmax II \n https://pdf.indiamart.com/impdf/19269751297/MY-15951492/escorts-loadmax-ii-backhoe-loader.pdf"],
+         "context": [""]
+        },
+        
+        {"tag": "P",
+         "patterns": ["P", "p"],
+         "responses": ["Here is the pdf link for model Digmax II (2WD) \n https://www.escortsgroup.com/"],
+         "context": [""]
+        },
+        
+        {"tag": "Q",
+         "patterns": ["Q", "q"],
+         "responses": ["Here is the pdf link for model Digmax II (4WD) \n https://www.escortsgroup.com/"],
+         "context": [""]
+        },
+        
+        {"tag": "R",
+         "patterns": ["R", "r"],
+         "responses": ["Here is the pdf link for model Loadgmax II \n https://www.escortsgroup.com/"],
+         "context": [""]
+        },
+        
+        {"tag": "X",
+         "patterns": ["X", "x"],
+         "responses": ["Here is the pdf link for model Digmax II (2WD) \n https://www.escortsgroup.com/"],
+         "context": [""]
+        },
+        
+        {"tag": "Y",
+         "patterns": ["Y", "y"],
+         "responses": ["Here is the pdf link for model Digmax II (4WD) \n https://www.escortsgroup.com/"],
+         "context": [""]
+        },
+        
+        {"tag": "Z",
+         "patterns": ["Z", "z"],
+         "responses": ["Here is the pdf link for model Loadgmax II \n https://www.escortsgroup.com/"],
+         "context": [""]
+        },
+        
+        {"tag": "7",
+         "patterns": ["7", "seven"],
+         "responses": ["Select our product range by entering an appropriate product choice from 6, 7 or 8!\n Enter 6 for Cranes\n Enter 7 for BHL\n Enter 8 for Compactors"],
+         "context": [""]
+        },
+        
+        {"tag": "8",
+         "patterns": ["8", "eight"],
+         "responses": ["Select our product range by entering an appropriate product choice from 6, 7 or 8!\n Enter 6 for Cranes\n Enter 7 for BHL\n Enter 8 for Compactors"],
+         "context": [""]
+        },
+        
+        {"tag": "2",
+         "patterns": ["2", "two", "Brochure", "Catalog", "Send me a quote", "Give me a quote", "I need a quotation", "I am interested in quotation"],
+         "responses": ["Please fill the following information using URL \n https://www.escortsgroup.com/ "],
+         "context": [""]
+        },
+        
+        {"tag": "3",
+         "patterns": ["3", "three", "Dealer info", "Which is the nearest dealer", "Who is my dealer", "How do I find a dealer"],
+         "responses": ["Kindly share your current location using WhatsApp or SMS \n Send a message with your state name through SMS to 9999999999 \n Or share your location using WhatsApp location service \n We will share details of dealer with name, address, and contact number! "],
+         "context": [""]
+        },
+        
+        {"tag": "4",
+         "patterns": ["4", "four", "Contact info? ", "I need assistance", "How can I contact you", "I need help", "Please connect me to customer care"],
+         "responses": ["Our toll free number is 1800-180-4488 \n Our representative will connect with you soon! "],
+         "context": [""]
+        },
+        
+        {"tag": "5",
+         "patterns": ["5", "five", "Tell me about the price of a product", "Tell me about schemes", "New schemes", "What schemes do you provide"],
+         "responses": ["Sharing the URL below for the scheme \n https://www.escortsgroup.com/"],
+         "context": [""]
+        }
+   ]
+}
